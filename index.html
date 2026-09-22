@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tech UANL 2026, evento universitario de tecnología, innovación y desarrollo.">
+    <title>Tech UANL 2026 | Evento de Tecnología</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Navegación principal">
+            <a class="logo" href="#inicio" aria-label="Tech UANL, ir al inicio">
+                Tech<span>UANL</span>
+            </a>
+
+            <ul class="nav-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#ponentes">Ponentes</a></li>
+                <li><a href="#registro">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="inicio">
+        <!-- Hero -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <p class="eyebrow">EVENTO UNIVERSITARIO · 2026</p>
+                <h1 id="hero-title">Tecnología que transforma el futuro</h1>
+                <p class="hero-text">
+                    Un espacio para aprender, compartir ideas y descubrir cómo la
+                    tecnología puede crear nuevas oportunidades.
+                </p>
+                <a class="button" href="#registro">Registrarme al evento</a>
+            </div>
+        </section>
+
+        <!-- Agenda -->
+        <section class="section" id="agenda" aria-labelledby="agenda-title">
+            <div class="section-heading">
+                <p class="eyebrow">PROGRAMA</p>
+                <h2 id="agenda-title">Agenda del evento</h2>
+                <p>Consulta las actividades principales y organiza tu día.</p>
+            </div>
+
+            <ol class="agenda-list">
+                <li class="agenda-item">
+                    <time datetime="09:00">09:00 AM</time>
+                    <div>
+                        <h3>Registro y bienvenida</h3>
+                        <p>Recepción de participantes y presentación del evento.</p>
+                    </div>
+                </li>
+
+                <li class="agenda-item">
+                    <time datetime="10:00">10:00 AM</time>
+                    <div>
+                        <h3>Inteligencia Artificial</h3>
+                        <p>Cómo la IA está transformando la industria y la educación.</p>
+                    </div>
+                </li>
+
+                <li class="agenda-item">
+                    <time datetime="12:00">12:00 PM</time>
+                    <div>
+                        <h3>Desarrollo de software</h3>
+                        <p>Buenas prácticas para crear productos digitales.</p>
+                    </div>
+                </li>
+
+                <li class="agenda-item">
+                    <time datetime="14:00">02:00 PM</time>
+                    <div>
+                        <h3>Diseño y experiencia de usuario</h3>
+                        <p>Diseñar experiencias digitales accesibles y centradas en las personas.</p>
+                    </div>
+                </li>
+
+                <li class="agenda-item">
+                    <time datetime="16:00">04:00 PM</time>
+                    <div>
+                        <h3>Networking y cierre</h3>
+                        <p>Conecta con estudiantes, profesionales y otros participantes.</p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Ponentes -->
+        <section class="section speakers-section" id="ponentes" aria-labelledby="speakers-title">
+            <div class="section-heading">
+                <p class="eyebrow">INVITADOS</p>
+                <h2 id="speakers-title">Nuestros ponentes</h2>
+                <p>Conoce a las personas que compartirán su experiencia durante el evento.</p>
+            </div>
+
+            <div class="speakers-grid">
+                <article class="speaker-card">
+                    <img
+                        src="https://i.pravatar.cc/400?img=47"
+                        alt="Fotografía de la ponente Ana García"
+                        loading="lazy"
+                    >
+                    <div class="speaker-info">
+                        <h3>Ana García</h3>
+                        <p class="speaker-role">Ingeniera de Software</p>
+                        <p>“El futuro del desarrollo web”</p>
+                    </div>
+                </article>
+
+                <article class="speaker-card">
+                    <img
+                        src="https://i.pravatar.cc/400?img=12"
+                        alt="Fotografía del ponente Carlos Martínez"
+                        loading="lazy"
+                    >
+                    <div class="speaker-info">
+                        <h3>Carlos Martínez</h3>
+                        <p class="speaker-role">Especialista en IA</p>
+                        <p>“Inteligencia Artificial para todos”</p>
+                    </div>
+                </article>
+
+                <article class="speaker-card">
+                    <img
+                        src="https://i.pravatar.cc/400?img=32"
+                        alt="Fotografía de la ponente Sofía López"
+                        loading="lazy"
+                    >
+                    <div class="speaker-info">
+                        <h3>Sofía López</h3>
+                        <p class="speaker-role">UX/UI Designer</p>
+                        <p>“Diseño centrado en las personas”</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Registro -->
+        <section class="section registration-section" id="registro" aria-labelledby="registration-title">
+            <div class="registration-content">
+                <div class="section-heading">
+                    <p class="eyebrow">PARTICIPA</p>
+                    <h2 id="registration-title">Regístrate al evento</h2>
+                    <p>Déjanos tu correo para recibir información y actualizaciones.</p>
+                </div>
+
+                <form class="registration-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Nombre completo</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            autocomplete="name"
+                            placeholder="Ej. Regina Rodríguez"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            placeholder="ejemplo@correo.com"
+                            required
+                        >
+                    </div>
+
+                    <button class="button" type="submit">Confirmar registro</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div>
+                <a class="logo footer-logo" href="#inicio">Tech<span>UANL</span></a>
+                <p>Evento universitario de tecnología e innovación.</p>
+            </div>
+
+            <div>
+                <h2>Contacto</h2>
+                <address>
+                    <a href="mailto:techevento@universidad.edu">techevento@universidad.edu</a>
+                    <a href="tel:+528112345678">+52 81 1234 5678</a>
+                </address>
+            </div>
+
+            <div>
+                <h2>Redes sociales</h2>
+                <ul class="social-list">
+                    <li><a href="#" aria-label="Instagram de Tech UANL">Instagram</a></li>
+                    <li><a href="#" aria-label="LinkedIn de Tech UANL">LinkedIn</a></li>
+                    <li><a href="#" aria-label="Facebook de Tech UANL">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="copyright">© 2026 Tech UANL. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
